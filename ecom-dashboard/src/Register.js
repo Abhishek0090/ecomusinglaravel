@@ -12,7 +12,7 @@ const Register = () => {
   async function signUp(){
    
     let item = {name,email,password};
-    console.log(item);
+    // console.log(item);
     
     let result = await fetch("http://localhost:8000/api/register",{
       method:'POST',
@@ -27,9 +27,7 @@ const Register = () => {
     // localStorage.setItem("user-info",JSON.stringify(result))
     // navigate('/add')
   }
-
-   
-
+ 
   return (
     <>
 
