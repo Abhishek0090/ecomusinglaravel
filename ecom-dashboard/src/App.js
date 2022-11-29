@@ -12,7 +12,7 @@ import Home from './Home';
 function App() {
   return (
     <div className="App">  
-    <Header/>
+    {/* <Header/> */}
         {/* <h1>Ecom Dashboard</h1>  */}
     <Routes>
       <Route path="/" element={<Home/>} />

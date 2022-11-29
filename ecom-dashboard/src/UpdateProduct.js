@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from './Header'
 
 const UpdateProduct = () => {
   return (
-    <div>UpdateProduct</div>
+    <div>
+    <Header/>
+    UpdateProduct
+    </div>
   )
 }
 
